@@ -14,7 +14,7 @@ h1 {
     font-size: 7rem;
     position: relative;
     display: inline-block;
-    border-bottom: 5px solid orangered;
+    border-bottom: 5px solid rgba(0, 180, 216);
 }
 
 h1::after {
@@ -50,6 +50,6 @@ h1::after {
 }
 
 .clock span {
-    background: linear-gradient(rgba(255, 154, 139), rgba(255, 106, 136), rgba(255, 153, 172));
+    background: linear-gradient(rgba(0, 180, 216), rgba(144, 224, 239));
     padding: 3rem 8rem;
 }
