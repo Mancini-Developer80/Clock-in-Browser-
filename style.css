@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+
+body {
+    background : linear-gradient(rgba(0, 147, 233), rgba(128, 208, 199));
+    color: white;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 7rem;
+    position: relative;
+    display: inline-block;
+    border-bottom: 5px solid orangered;
+}
+
+h1::after {
+    content : 'Hallo!';
+    position: absolute;
+    top: 50px;
+    right: -90px;
+    font-size: 1rem;
+    background-color: Red;
+    padding: .5rem 1rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    opacity: .5;
+    transform: rotate(45deg);
+
+
+}
+
+.text1 {
+    width: 60%;
+    margin: 80px auto;
+    font-size: 1.5rem
+}
+
+/* p {
+    font-size: 2rem;
+} */
+
+.clock {
+    font-size: 4rem;
+    background: linear-gradient(to bottom right,rgba(255, 229, 59), rgba(159, 172, 230));
+    
+}
+
+.clock span {
+    background: linear-gradient(rgba(255, 154, 139), rgba(255, 106, 136), rgba(255, 153, 172));
+    padding: 3rem 8rem;
+}
