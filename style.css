@@ -23,11 +23,11 @@ h1::after {
     top: 50px;
     right: -90px;
     font-size: 1rem;
-    background-color: Red;
+    background-color: rgba(144, 224, 239);
     padding: .5rem 1rem;
     border-radius: 50%;
     font-size: 2rem;
-    opacity: .5;
+    opacity: .7;
     transform: rotate(45deg);
 
 
@@ -39,17 +39,9 @@ h1::after {
     font-size: 1.5rem
 }
 
-/* p {
-    font-size: 2rem;
-} */
-
-.clock {
-    font-size: 4rem;
-    background: linear-gradient(to bottom right,rgba(255, 229, 59), rgba(159, 172, 230));
-    
-}
 
 .clock span {
+    font-size: 4rem;
     background: linear-gradient(rgba(0, 180, 216), rgba(144, 224, 239));
     padding: 3rem 8rem;
 }
